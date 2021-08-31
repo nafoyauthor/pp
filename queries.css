@@ -1,0 +1,255 @@
+@media screen and (max-width: 1015px) {
+  .events__bgimage,
+  .band__bgimage,
+  .videos__bgimage,
+  .merchandise-bgimage,
+  .contact-bgimage {
+    display: none;
+    width: 0;  
+  }
+}
+
+
+@media screen and (max-width: 870px) {
+  
+  h3 {
+    font-size: 0.95rem;
+  }
+  .topnav a:link,
+  .topnav a:visited {
+    font-size: .9rem;
+    min-width: 100px;
+  }
+  
+  .anchor {
+    width: 15px;
+    height: 15px;
+  }
+
+  .events__table {
+    display: none;
+  }
+
+  .events__870 {
+    color: #fff;
+    padding-top: 60px; 
+  }
+
+  ul li {
+    color: white;
+  }
+
+  ul {
+    list-style: none;
+    text-align: center
+  }
+
+  li {
+    margin-top: -15px;
+    padding-right: 50px;
+  }
+
+  .td-date {
+    font-size: 1.5rem;
+    color: #32cb32;
+    margin-bottom: 20px;
+  }
+  .events__link-870 {
+    display: block;
+  }
+}
+
+
+
+@media screen and (max-width: 685px) {
+  .header__icons {
+    width: 25px; 
+  }
+
+.topnav {
+  top: -50px;
+}
+  
+  .topnav a {
+    display: none;
+  }
+
+  .topnav__anchor-right {
+    display: none;
+  }
+
+  .topnav a.icon {
+    display: block; 
+    position: absolute;
+    margin-right: -16px;
+    right: 0;
+    top: -50px; 
+    background-color: rgba(0, 0, 0, 0); 
+    box-shadow: none;
+    padding: 0;
+    border: none;
+    font-size: 2rem;
+    z-index: 3;
+    margin-top: 0px;
+    z-index: 20;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .topnav.responsive {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: -50px;
+    z-index: 20; 
+  }
+    
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a.icon:hover {
+    background-color: #000;
+  }
+  
+  .topnav.responsive a {
+    float: none;
+    display: inline;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 1); 
+    margin-bottom: -15px; 
+    border: none;
+    z-index: 10;
+    border-radius: 0;
+
+    }
+
+    .topnav__contact {
+      display: inline; 
+      margin-bottom: 0px !important;
+    }
+
+  
+    .topnav.responsive a:hover {
+    box-shadow: none;
+    background-color: #bbb;
+    border-radius: 0;
+    z-index: 21;
+    }
+
+    /* .topnav.responsive a:hover:last-child {
+      padding-bottom: 50px;
+    } */
+  }
+
+  @media screen and (max-width: 685px) {
+  .header__icon-bar {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+      
+  }
+
+  .header__icons {
+    margin: 0 5px 20px; 
+  }
+
+  .header__reverbnation {
+    height: 25px
+  }
+
+  .topnav.responsive a.icon {
+    margin-right: -50px; 
+  }
+
+  .topnav a:link,
+  .topnav a:visited {
+    animation: none;
+    animation-delay: none;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .events__heading {
+    margin-top: 150px; 
+  }
+
+  .band__christian-morrison {
+    margin-top: 115px;
+  }
+
+  .merch-full {
+    display: none;
+  }
+
+  .merch-685 {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  .merch-photo {
+    margin: 0 auto;
+   
+  }
+
+  .p-PP-Logo {
+    position: relative;
+    text-align: center; 
+    font-size: 1rem;
+    position: absolute;
+    margin-left: -140px;
+    letter-spacing: .3rem
+  }
+
+  .p-merch-logo {
+    text-align: center;
+    margin-left: 0; 
+    position: absolute;
+    letter-spacing: .3rem;
+    margin-top: 60px; 
+    margin-left: -75px;
+  }
+
+  .videos__findAWay {
+    margin: 30px 30% 0; 
+  }
+
+  .contact__info {
+    margin: 115px 23% 0;
+    font-size: .6rem;
+    letter-spacing: .12rem;
+  }
+
+  .contact__link {
+    font-size: .6rem;
+    letter-spacing: .12rem;
+  }
+
+  }
+
+  @media screen and (max-width: 512px) {
+
+    .band__member {
+      margin-left: 35%;
+      margin-right: 30%;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+
+    .events__870 {
+      margin-left: 35%;
+      margin-right: 30%;
+
+    }
